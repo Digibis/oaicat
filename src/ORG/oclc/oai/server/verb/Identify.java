@@ -140,9 +140,6 @@ public class Identify extends ServerVerb {
                     sb.append("\n");
                 }
             }
-            sb.append("<description><toolkit><title>OCLC's OAICat Repository Framework</title><author><name>Jeffrey A. Young</name><email>jyoung@oclc.org</email><institution>OCLC</institution></author><version>");
-            sb.append(version);
-            sb.append("</version><toolkitIcon>http://alcme.oclc.org/oaicat/oaicat_icon.gif</toolkitIcon><URL>http://www.oclc.org/research/software/oai/cat.shtm</URL></toolkit></description>");
             String descriptions = abstractCatalog.getDescriptions();
             if (descriptions != null) {
                 sb.append(descriptions);
